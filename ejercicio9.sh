@@ -1,4 +1,5 @@
 #!/bin/bash
+#UT8 Practica 1
 read -p "Ingresa un numero y te dire si es PAR o IMPAR: " numero
 a=$numero%2
 

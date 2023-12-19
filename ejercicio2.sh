@@ -1,4 +1,5 @@
 #!/bin/bash
+#UT8 Practica 1
 #   $# --> cuenta cuantos parametros se le pasan.
 if [ $# -eq 2 ]; then
 	(( z=$1 + $2 ))

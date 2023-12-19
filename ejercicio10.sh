@@ -1,4 +1,5 @@
 #!/bin/bash
+#UT8 Practica 1
 read -p "INgresa un numero y te dire si es un numero PRIMO: " primo
 a=$(($primo / 1))
 b=$(($primo / $primo))

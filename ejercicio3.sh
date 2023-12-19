@@ -1,4 +1,5 @@
 #!/bin/bash
+#UT8 Practica 1
 
 if [[ -a $1 ]]; then
 	echo "El fichero existe y es un FICHERO."
