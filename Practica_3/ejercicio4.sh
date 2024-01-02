@@ -1,5 +1,5 @@
 #!/bin/bash
-# TIENE ALGUNOS ERRORES PERO SE PUEDE MEJORAR, con usuarios como: admin01, smmta, cup funciona bien.
+# TIENE ALGUNOS ERRORES PERO SE PUEDE MEJORAR, con usuarios como: admin01, smmta, cup, y los creados en el ejercticio3 funciona bien.
 nombre=$1
 grupo=$2
 
