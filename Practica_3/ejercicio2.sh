@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Con este script, buscare todos los ficheros en tu sistema que puedan ser modificados y te los guardare en un fichero llamado archivos_peligrosos.txt en tu hubicacion actual."
+echo "Con este script, buscare todos los ficheros en tu sistema que puedan ser modificados y te los guardare en un fichero llamado archivos_peligrosos.txt en tu ubicacion actual."
 ficheros=$(ls -l / | grep "^[-*]*rwx") # busco y guardo en un fichero los resultados.
 echo $ficheros >> temp.txt
 
@@ -9,5 +9,5 @@ for i in $resultado;
 do
 	find / -name $i | grep $i >> Archivos_peligrosos.txt
 done
-rm temp.txt # elimino el fichero temp.txt, tuve que realizar elte fichero porque no pude lograr que el comando cut busque
+rm temp.txt # elimino el fichero temp.txt, tuve que realizar este fichero porque no pude lograr que el comando cut busque
 	    # dentro de la variable $ficheros, no se como hacerlo.
